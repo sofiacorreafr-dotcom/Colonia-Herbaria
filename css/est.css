@@ -1,0 +1,144 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    
+  body {
+    font-family: 'Georgia', serif;
+    color: #4b3e2b;
+    background-color: #fffdf6;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #d6d0a7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-bottom: #4b3e2b solid 1px;
+  }
+  
+  .logo{
+    display: flex;
+    height: 50px;
+    align-content:center;
+    gap: 20px;
+    scale: 200%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #4b3e2b;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    color: #6a5a3b;
+  }
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-color: #4b3e2b solid 1px;
+}
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slides img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+  }
+  
+  .btn:hover {
+    background: rgba(0,0,0,0.8);
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  footer {
+    background-color: #f1eee0;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    border-bottom: #4b3e2b solid 1px;
+    border-top: #4b3e2b solid 1px;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    color: #4b3e2b;
+  }
+  
+  .redes a:hover {
+    text-decoration: underline;
+  }
+  @media (min-width: 1200px) {
+    .flex{
+        display: flex;
+        column-gap: 20px;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    nav{
+        flex-grow: 4;
+        height: 300px;
+    }
+    section{
+        flex-grow: 8;
+    }
+    
+    article{
+       flex: 1 1 280px; 
+    
+    }
+    
+    }
+    
+    /* Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+        .noflex{
+            display: block;
+        }
+        nav{
+            height: 35px;
+        }
+        
+    }
