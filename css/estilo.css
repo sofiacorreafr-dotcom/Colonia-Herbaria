@@ -1,0 +1,193 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  color: #4b3e2b;
+  background-color: #fffdf6;
+  line-height: 1.6;
+}
+header {
+  background-color: #d6d0a7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.logo{
+  display: flex;
+  height: 50px;
+  align-content:center;
+  gap: 20px;
+  scale: 200%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b3e2b;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #6a5a3b;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e8e3c8;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  color: #4b3e2b;
+  margin-bottom: 1rem;
+}
+
+.hero-text span {
+  font-style: italic;
+}
+
+.btn {
+  background-color: #a9b37f;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #8c9562;
+}
+
+.hero-img img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.descripcion {
+  text-align: center;
+  padding: 2rem 4rem;
+
+}
+.mini-logo{
+  align-content:center;
+  gap: 20px;
+  scale: 300%;  
+  margin: 5%;
+  margin-bottom: 8%;
+}
+
+.mini-logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.expositoras {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f6f3e6;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 280px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #eef0d4;
+}
+
+.info-box {
+  margin-bottom: 1.5rem;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.programacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.texto {
+  max-width: 50%;
+}
+
+.texto ul {
+  margin-top: 1rem;
+}
+
+.texto li {
+  margin-bottom: 0.5rem;
+}
+
+.program-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+.final {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+footer {
+  background-color: #f1eee0;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #4b3e2b;
+}
+
+.redes a:hover {
+  text-decoration: underline;
+}
